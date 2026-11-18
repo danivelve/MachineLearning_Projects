@@ -1,0 +1,29 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+env/
+.venv/
+
+# Node (reinstall with npm install inside presentation/)
+node_modules/
+
+# Office and Power BI temp files
+~$*
+*.pbix.bak
+.pbi/
+
+# Logs
+*.log
+
+# Data files too large for GitHub (download from Kaggle, see README)
+data/raw/bluebook-for-bulldozers/Train/
+data/raw/bluebook-for-bulldozers/Train.csv
+data/raw/bluebook-for-bulldozers/TrainAndValid.csv
+data/raw/bluebook-for-bulldozers/Machine_Appendix.csv
+data/processed/train_tmp.csv
+data/processed/powerbi/sales.csv
+
+# OS
+.DS_Store
+Thumbs.db
